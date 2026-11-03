@@ -42,6 +42,9 @@ The dataset is loaded directly from a remote CSV source using pandas. An initial
 
 A correlation heatmap is generated using seaborn and matplotlib to visualize relationships between all numerical features. This is followed by a ranked analysis of feature correlations with respect to the target variable.
 
+<img width="469" height="283" alt="image" src="https://github.com/user-attachments/assets/8b29aa13-d626-4b8e-8504-9fad243d29e3" />
+
+
 The correlation analysis reveals that education (`ed`, 0.194) and tenure (`tenure`, 0.167) have the strongest positive relationships with the customer category, while `gender` (0.005) and `retire` (0.009) show negligible influence.
 
 ### 3. Feature Preparation
