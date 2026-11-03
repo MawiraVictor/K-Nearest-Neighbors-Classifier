@@ -133,7 +133,6 @@ The following enhancements could be explored to improve model performance and ro
 - Feature engineering: derive new features or apply dimensionality reduction techniques such as principal component analysis.
 - Distance metrics: experiment with alternative distance measures such as Manhattan or Minkowski distance.
 - Class balancing: investigate resampling strategies to address the mild class imbalance in the target variable.
-- Cross-validation: replace the single train-test split with k-fold cross-validation for more reliable performance estimates.
 
 ## License
 
